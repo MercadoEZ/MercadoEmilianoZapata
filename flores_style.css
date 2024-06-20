@@ -1,0 +1,252 @@
+body {
+    background-color: #97e1ff;
+}
+
+html {
+    border: 0.90rem solid white;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 48px;
+}
+
+form {
+    float: flex;
+}
+
+#inicio{
+    width: 3%;
+    padding-right: 50;
+    z-index: 14;
+    float: right;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    left: 100%;
+}
+
+div {
+    float: left;
+}
+
+table {
+    align-content: center;
+    width: 100%;
+    left: auto;
+    border-collapse: separate;
+}
+
+#fon {
+    background-color: rgb(117, 177, 255);
+    background-size: contain;
+}
+
+#arreglos {
+    background-image: url(https://i.postimg.cc/g2MS7N6d/fondo.png);
+    background-color: transparent;
+}
+
+.enlaces {
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+
+.posmenu{
+    margin-left: 70%;
+    z-index: 20;
+    /*position: absolute;
+    top: 90px;*/
+}
+
+.menu {
+    list-style: none;
+    /*z-index: 14;*/
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#xd {
+    align-content: center;
+    text-align: center;
+    background-color: rgb(210, 161, 255);
+}
+
+.fondoflores {
+    background-image: url(https://i.postimg.cc/g2MS7N6d/fondo.png);
+    background-color: rgb(210, 161, 255);
+}
+
+.fonfon {
+    background-image: url(https://i.postimg.cc/g2MS7N6d/fondo.png);
+    background-color: #97e1ff;
+}
+
+#texto {
+
+    font-weight: bold;
+    text-align: center;
+    background-color: #97e1ff;
+
+}
+
+#logoo {
+
+    width: 12%;
+    z-index: 15;
+    padding-top: 10px;
+
+}
+
+.encabezado{
+    width: 100%;
+    text-align: center;
+    /*z-index: 10;*/
+    position: absolute;
+    top: 50px;
+}
+.encabezado_div{
+    position:absolute;
+    /*margin-top: 10px;*/
+    left: 30%;
+    /*margin: -25px 0 0 -25px;*/
+}
+
+.logoo {
+
+    width: 12%;
+    z-index: 15;
+    padding-top: 10px;
+
+}
+
+.text1{
+
+    width: 100%;
+    text-align: center;
+    z-index: 12;
+    position: absolute;
+    top: 50px;
+   
+}
+
+
+.enlaces2 {
+    float: right;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    display: inline;
+    margin-top: 70px;
+}
+
+
+@media only screen and (max-width:800px){
+    .menu {
+         display: none; 
+    }
+    .enlaces2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .posmenu{
+        margin-left: 30%;
+        z-index: 20;
+        /*position: absolute;
+        top: 90px;*/
+    }
+    
+    .menu {
+        list-style: none;
+        /*z-index: 14;*/
+        top: 10px;
+        right: 30px;
+        cursor: pointer;
+        font-size: .1em;
+    }
+
+    .logoo {
+
+        width: 15%;
+        z-index: 15%;
+        padding-top: 10%;
+    
+    }
+    .encabezado_div{
+        position:absolute;
+        /*margin-top: 10px;*/
+        left: 30%;
+        /*margin: -25px 0 0 -25px;*/
+    }
+    
+    .encabezado{
+        width: 100%;
+        text-align: center;
+        /*z-index: 10;*/
+        position: absolute;
+        top: .2em;
+    }
+    .encabezado_div{
+        position:absolute;
+        /*margin-top: 10px;*/
+        left: 30%;
+        /*margin: -25px 0 0 -25px;*/
+    }
+
+
+    h2 {
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 1.5em ;
+    }
+    .tablita {
+        align-content: center;
+        width: 10px;
+        left: auto;
+        border-collapse: separate;
+    
+    }
+    h1 {
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    #texto {
+        font-size: 15px;
+
+    }
+    
+}

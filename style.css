@@ -1,0 +1,379 @@
+@media only screen and (min-width: 300px) and (max-width: 2500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    align-items: center;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    text-align: center;
+    font-family: sans-serif;
+    background: #101010;
+  }
+
+  p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 10%;
+  }
+
+  /* barra superior*/
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12%;
+    background: #171717;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .nom {
+    color: #fff;
+    padding-left: 5%;
+    width: 100%;
+    /*margin-left: 10%;*/
+    text-align: left;
+    font-size: 2em;
+  }
+
+  .logo {
+    margin-left: 40%;
+  }
+
+  .logo img {
+    max-width: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(https://i.redd.it/iijv9l2hw6s71.png) no-repeat center;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+  }
+
+  .hh {
+    font-size: 1.6rem;
+    font-weight: 800;
+    height: 30%;
+  }
+
+  .botones {
+    padding: 5px;
+    max-width: 90%;
+    width: 95%;
+    margin: 20px auto;
+    margin-bottom: 0;
+    /*height: 70%;*/
+  }
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+    &:nth-last-child(2) {
+      margin-right: 0;
+    }
+    &:last-child {
+      flex-basis: 100%;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+  }
+
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #9c27b0;
+  color: #fff;
+  text-decoration: none;
+  background: #9c27b0;
+}
+
+.btn1{
+  text-decoration: none;
+  color: transparent;
+}
+
+.btn:hover {
+  background: none;
+}
+
+.btn-home {
+  display: flex;
+  margin: 0 10px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 200%;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  align-items: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background: #101010;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 5rem rgb(0, 0, 0.5);
+  margin: 2rem;
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #9c27b0;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: #9c27b0;
+}
+
+.box-container .box p {
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+.price {
+  background: url(https://www.madridcapitaldemoda.com/wp-content/uploads/2020/03/banner_turismoexperiencial_catedra-1.jpg)
+    no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  background-size: bottom;
+}
+
+.contac {
+  padding-top: 10px;
+  background: #1b1b1b;
+  padding-top: 0;
+}
+
+/*iconos*/
+.socialIcons {
+  display: inline-flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i {
+  font-size: 1cm;
+  color: #000;
+  opacity: 0.9;
+}
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+/* responsve */
+@media (max-width: 768px) {
+  .title {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .sau {
+    height: 120vh;
+  }
+
+  .navbar a span {
+    display: none;
+  }
+}
+
+/* efecto de img */
+.contenedor0 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.contenedor1 {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+  background-image: url(https://i.postimg.cc/wvdTcLkV/Whats-App-Image-2024-06-19-at-18-03-32.jpg );
+}
+.img2 {
+  background-image: url(https://i.postimg.cc/SRgSh5bT/05ffbe90-fba9-432a-a504-07931bb8ff7f.jpg);
+}
+.img3 {
+  background-image: url(https://i.postimg.cc/CLKMNFbW/83eb8306-0c2e-4b95-a71c-f815879de9cf.jpg);
+}
+.item {
+  width: 30%;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  margin: 0% 10px;
+  transition: 0.3s;
+  position: relative;
+  border-radius: 20px;
+}
+.item:hover {
+  width: 60%;
+}
+.overlay {
+  position: absolute;
+  background: linear-gradient(to bottom, transparent 80%, rgba(0, 0, 0, 0.7));
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.item .titulo {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 0;
+  transform-origin: left top 0;
+  text-shadow: 2px 2px 3px #000;
+  letter-spacing: 2px;
+  left: 20px;
+}
+.item .nombre {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  transition: 1s;
+  opacity: 0;
+}
+.item .titulo::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 120%;
+  background-color: #371c4b;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+  line-height: 40px;
+}
+.item:hover .nombre {
+  opacity: 1;
+}
+.item:hover .titulo::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px){
+  .hh {
+    font-size: 1.2rem;
+    font-weight: 800;
+    height: 30%;
+    margin-top: 20%;
+    padding-top: 0;
+
+  }
+
+  .nom{
+    font-size: 1.5em;
+  }
+
+  .botones {
+    padding: 5px;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 0;
+    height: 70%;
+    font-size: 0.8rem;
+  }
+
+
+  
+}
+
+.columnas{
+  display: flex;
+  width: 90%;
+}
+
+.columnas_titulo{
+  display: flex;
+  width: 90%;
+}
+
+.columnas_titulo h2{
+  width: 50%;
+  margin-bottom: 0;
+}
+
+#parrafo_nosotros{
+  width: 40%;
+}
+
+.parr_nos{
+  /*white-space: pre-wrap;*/
+  
+  text-align: center;
+}
+
+.div-2{
+  padding: 20%;
+}
